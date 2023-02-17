@@ -32,7 +32,8 @@
 <body>
     <div id="root">
         <ul>
-            <li v-for="email in emailList">
+            <li v-for="email in emailList"
+                v-show="(emailList.length == 10)">
                {{email}}
             </li>
         </ul>

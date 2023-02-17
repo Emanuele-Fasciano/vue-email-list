@@ -22,6 +22,7 @@ const app = Vue.createApp({
             }
             console.log(this.emailList);
         }
+        
         }
 });
 
